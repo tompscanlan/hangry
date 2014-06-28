@@ -1,4 +1,7 @@
+require 'uri'
+
 module Hangry
+
   class CanonicalUrlParser
 
     attr_accessor :nokogiri_doc
